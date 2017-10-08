@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: $m-size;
+}
+.is-active {
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+button:disabled {
+    cursor: default;
+}
