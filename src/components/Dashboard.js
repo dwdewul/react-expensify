@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ExpenseList from './ExpenseList';
 
 const Dashboard = () => {
     return (
         <div>
-            THE DASH
+            <ExpenseList />
         </div>
     );
 }
