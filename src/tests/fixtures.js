@@ -28,5 +28,5 @@ export default [
         note: '',
         amount: 60000,
         createdAt: moment(0).add(6, 'days').valueOf()
-    },
+    }
 ];

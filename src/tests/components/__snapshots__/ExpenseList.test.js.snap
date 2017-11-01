@@ -1,292 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render ExpenseList with expenses 1`] = `
-ShallowWrapper {
-  "length": 1,
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ExpenseList
-    expenses={
-      Array [
-        Object {
-          "amount": 199,
-          "createdAt": "1970-01-01T00:00:00.000Z",
-          "description": "Gum",
-          "id": "1",
-          "note": "",
-        },
-        Object {
-          "amount": 109500,
-          "createdAt": -345600000,
-          "description": "Rent",
-          "id": "2",
-          "note": "",
-        },
-        Object {
-          "amount": 1200,
-          "createdAt": 345600000,
-          "description": "Beer",
-          "id": "3",
-          "note": "",
-        },
-        Object {
-          "amount": 60000,
-          "createdAt": 518400000,
-          "description": "Hookers",
-          "id": "4",
-          "note": "",
-        },
-      ]
-    }
-  />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": null,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <h1>
-          Expense List
-        </h1>,
-        Array [
-          <ExpenseListItem
-            amount={199}
-            createdAt={"1970-01-01T00:00:00.000Z"}
-            description="Gum"
-            id="1"
-            note=""
-          />,
-          <ExpenseListItem
-            amount={109500}
-            createdAt={-345600000}
-            description="Rent"
-            id="2"
-            note=""
-          />,
-          <ExpenseListItem
-            amount={1200}
-            createdAt={345600000}
-            description="Beer"
-            id="3"
-            note=""
-          />,
-          <ExpenseListItem
-            amount={60000}
-            createdAt={518400000}
-            description="Hookers"
-            id="4"
-            note=""
-          />,
-        ],
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Expense List",
-        },
-        "ref": null,
-        "rendered": "Expense List",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": "1",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 199,
-          "createdAt": "1970-01-01T00:00:00.000Z",
-          "description": "Gum",
-          "id": "1",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "2",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 109500,
-          "createdAt": -345600000,
-          "description": "Rent",
-          "id": "2",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "3",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 1200,
-          "createdAt": 345600000,
-          "description": "Beer",
-          "id": "3",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "4",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 60000,
-          "createdAt": 518400000,
-          "description": "Hookers",
-          "id": "4",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": null,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h1>
-            Expense List
-          </h1>,
-          Array [
-            <ExpenseListItem
-              amount={199}
-              createdAt={"1970-01-01T00:00:00.000Z"}
-              description="Gum"
-              id="1"
-              note=""
-            />,
-            <ExpenseListItem
-              amount={109500}
-              createdAt={-345600000}
-              description="Rent"
-              id="2"
-              note=""
-            />,
-            <ExpenseListItem
-              amount={1200}
-              createdAt={345600000}
-              description="Beer"
-              id="3"
-              note=""
-            />,
-            <ExpenseListItem
-              amount={60000}
-              createdAt={518400000}
-              description="Hookers"
-              id="4"
-              note=""
-            />,
-          ],
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Expense List",
-          },
-          "ref": null,
-          "rendered": "Expense List",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": "1",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 199,
-            "createdAt": "1970-01-01T00:00:00.000Z",
-            "description": "Gum",
-            "id": "1",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "2",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 109500,
-            "createdAt": -345600000,
-            "description": "Rent",
-            "id": "2",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "3",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 1200,
-            "createdAt": 345600000,
-            "description": "Beer",
-            "id": "3",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "4",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 60000,
-            "createdAt": 518400000,
-            "description": "Hookers",
-            "id": "4",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-      },
-    },
-  },
-}
+<div>
+  <h1>
+    Expense List
+  </h1>
+  <ExpenseListItem
+    amount={199}
+    createdAt={"1970-01-01T00:00:00.000Z"}
+    description="Gum"
+    id="1"
+    key="1"
+    note=""
+  />
+  <ExpenseListItem
+    amount={109500}
+    createdAt={-345600000}
+    description="Rent"
+    id="2"
+    key="2"
+    note=""
+  />
+  <ExpenseListItem
+    amount={1200}
+    createdAt={345600000}
+    description="Beer"
+    id="3"
+    key="3"
+    note=""
+  />
+  <ExpenseListItem
+    amount={60000}
+    createdAt={518400000}
+    description="Hookers"
+    id="4"
+    key="4"
+    note=""
+  />
+</div>
 `;
